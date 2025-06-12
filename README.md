@@ -17,26 +17,5 @@ This project is a **web-based blog generator** powered by the **LLaMA 2** large 
 - CTransformers
 
 ## How to Run the Project
-
-⚙️ Prerequisites
-Python 3.8 or above
-
-16 GB RAM (recommended)
-
-LLaMA 2 model file (.bin) downloaded locally
-
-🔧 Setup Instructions
-
-# Clone the repository
-git clone https://github.com/BasutkarSony/Blog-Generator.git
-cd Blog-Generator
-
-# Create and activate virtual environment (optional but recommended)
-python -m venv venv
-source venv/bin/activate  # on Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the app
-streamlit run app.py
+-pip install -r requirements.txt
+-streamlit run app.py
